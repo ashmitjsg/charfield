@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { DEMOS } from "@/lib/demos";
 import { FieldCard } from "@/components/field-card";
 
@@ -17,6 +18,12 @@ export default function Home() {
             <span className="text-neutral-500">$</span> npx charfield add flowfield
           </code>
           <span className="text-sm text-neutral-500">{DEMOS.length} fields</span>
+          <Link
+            href="/playground"
+            className="text-sm text-[#5fe0ab] underline-offset-4 hover:underline"
+          >
+            playground
+          </Link>
           <a
             href="https://www.npmjs.com/package/charfield"
             target="_blank"
