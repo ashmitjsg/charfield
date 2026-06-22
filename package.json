@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "Copy-in registry + CLI for ASCII canvas field animations (npx charfield add <name>)",
   "type": "module",
-  "bin": {
-    "charfield": "./dist/cli.js"
-  },
+  "bin": "./dist/cli.js",
   "files": [
     "dist"
   ],
