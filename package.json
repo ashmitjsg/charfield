@@ -1,15 +1,33 @@
 {
   "name": "charfield",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "description": "Copy-in registry + CLI for ASCII canvas field animations (npx charfield add <name>)",
+  "type": "module",
+  "bin": {
+    "charfield": "./dist/cli.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ascii",
+    "canvas",
+    "animation",
+    "registry",
+    "cli",
+    "react"
+  ],
+  "author": "Ashmit JaiSarita Gupta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashmitjsg/charfield.git"
+  },
+  "scripts": {
+    "registry": "node scripts/build-registry.mjs",
+    "build": "tsup src/cli.ts --format esm --clean --target node18",
+    "prepublishOnly": "npm run registry && npm run build"
+  },
   "devDependencies": {
     "@types/node": "^26.0.0",
     "tsup": "^8.5.1",
