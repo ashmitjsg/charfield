@@ -1,0 +1,372 @@
+{
+  "items": {
+    "types": {
+      "files": [
+        "types.ts"
+      ]
+    },
+    "canvas": {
+      "files": [
+        "ascii-field.tsx"
+      ],
+      "deps": [
+        "types"
+      ],
+      "npm": [
+        "react"
+      ]
+    },
+    "aharonovbohm": {
+      "files": [
+        "fields/aharonovbohm.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "bandstructure": {
+      "files": [
+        "fields/bandstructure.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "blackhole": {
+      "files": [
+        "fields/blackhole.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "blochsphere": {
+      "files": [
+        "fields/blochsphere.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "bz": {
+      "files": [
+        "fields/bz.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "chladni": {
+      "files": [
+        "fields/chladni.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "correlationgrid": {
+      "files": [
+        "fields/correlationgrid.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "decoherence": {
+      "files": [
+        "fields/decoherence.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "dipole": {
+      "files": [
+        "fields/dipole.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "doublependulum": {
+      "files": [
+        "fields/doublependulum.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "entanglement": {
+      "files": [
+        "fields/entanglement.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "fermisurface": {
+      "files": [
+        "fields/fermisurface.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "feynman": {
+      "files": [
+        "fields/feynman.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "flowfield": {
+      "files": [
+        "fields/flowfield.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "galaxy": {
+      "files": [
+        "fields/galaxy.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "gravitationalwave": {
+      "files": [
+        "fields/gravitationalwave.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "grover": {
+      "files": [
+        "fields/grover.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "hofstadter": {
+      "files": [
+        "fields/hofstadter.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "interference": {
+      "files": [
+        "fields/interference.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "ising": {
+      "files": [
+        "fields/ising.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "latticegauge": {
+      "files": [
+        "fields/latticegauge.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "lensing": {
+      "files": [
+        "fields/lensing.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "lissajous": {
+      "files": [
+        "fields/lissajous.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "lorenz": {
+      "files": [
+        "fields/lorenz.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "nbody": {
+      "files": [
+        "fields/nbody.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "orbital": {
+      "files": [
+        "fields/orbital.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "percolation": {
+      "files": [
+        "fields/percolation.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "phasespace": {
+      "files": [
+        "fields/phasespace.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "pulsar": {
+      "files": [
+        "fields/pulsar.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "qho": {
+      "files": [
+        "fields/qho.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "quantumwalk": {
+      "files": [
+        "fields/quantumwalk.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "quasicrystal": {
+      "files": [
+        "fields/quasicrystal.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "rabi": {
+      "files": [
+        "fields/rabi.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "ripples": {
+      "files": [
+        "fields/ripples.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "soliton": {
+      "files": [
+        "fields/soliton.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "superposition": {
+      "files": [
+        "fields/superposition.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "topological": {
+      "files": [
+        "fields/topological.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "transmon": {
+      "files": [
+        "fields/transmon.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "trappedion": {
+      "files": [
+        "fields/trappedion.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "tunneling": {
+      "files": [
+        "fields/tunneling.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "turing": {
+      "files": [
+        "fields/turing.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "vortexlattice": {
+      "files": [
+        "fields/vortexlattice.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "waves": {
+      "files": [
+        "fields/waves.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    },
+    "wigner": {
+      "files": [
+        "fields/wigner.ts"
+      ],
+      "deps": [
+        "types"
+      ]
+    }
+  }
+}
