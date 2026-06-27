@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/charfield.svg)](https://www.npmjs.com/package/charfield)
 
-**[Live demo & gallery → charfield.vercel.app](https://charfield.vercel.app)** &middot;
+**[Live demo & gallery → charfield.log0.in](https://charfield.log0.in)** &middot;
 **[npm](https://www.npmjs.com/package/charfield)** &middot;
-**[playground](https://charfield.vercel.app/playground)**
+**[playground](https://charfield.log0.in/playground)**
 
 Copy-in registry + CLI for **ASCII canvas field animations** - interactive, mouse-reactive
 procedural backgrounds rendered as ASCII glyphs. Pull in only the animations you need:
