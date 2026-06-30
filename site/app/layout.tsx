@@ -15,9 +15,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://charfield.log0.in"
+  ),
   title: "charfield - ASCII canvas field animations",
   description:
     "Copy-in registry + CLI for interactive ASCII canvas field animations. npx charfield add <name>.",
+  openGraph: {
+    title: "charfield - ASCII canvas field animations",
+    description:
+      "Copy-in registry + CLI for interactive ASCII canvas field animations.",
+    type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "charfield" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "charfield - ASCII canvas field animations",
+    description:
+      "Copy-in registry + CLI for interactive ASCII canvas field animations.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
